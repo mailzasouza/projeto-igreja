@@ -9,10 +9,13 @@ public class Principal {
 
 	public static void main(String[] args) {
 		
+		Pastor pastor = new Pastor("Mizael", 43, "036058", 2500.00, "Unimed");
+		//Membros membro = new Membros("Marcelo", 25, "038256");
+		pastor.informacao();
 		
-		Scanner sc = new Scanner(System.in);
+		//Scanner sc = new Scanner(System.in);
 				
-		System.out.println("INFORMAÇÃOES DO MEMBRO");
+		/*System.out.println("INFORMAÇÃOES DO MEMBRO");
 		System.out.println();
 		System.out.print("Digite o nome do membro: ");
 		String nome = sc.nextLine();
@@ -21,12 +24,12 @@ public class Principal {
 		sc.nextLine();
 		System.out.print("Digite o número de matrícula: ");
 		String matricula = sc.nextLine();
-		Membros membro = new Membros(nome, idade, matricula);
-		membro.informacao();
+		Pastor pastor = new Pastor("Mizael", 43, "036058", 2500.00, "Unimed");
+		membro.informacao();*/
 		
 		
 		
-		sc.close();
+		//sc.close();
 	}
 
 }

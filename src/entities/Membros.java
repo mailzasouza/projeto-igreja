@@ -2,9 +2,10 @@ package entities;
 
 public class Membros {
 	
-	private String nome;
-	private int idade;
-	private String matricula;
+	public String nome;
+	public int idade;
+	public String matricula;
+	
 	
 	public Membros() {
 		
@@ -19,8 +20,7 @@ public class Membros {
 		System.out.println("Nome: " + this.nome);
 		System.out.println("Idade: " + this.idade);
 		System.out.println("Matrícula: " + this.matricula);
-		
-		
+				
 	}
-	
+
 }
