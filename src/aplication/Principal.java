@@ -28,6 +28,7 @@ public class Principal {
 		membro.informacao();*/
 		
 		
+		System.out.println();
 		
 		//sc.close();
 	}
