@@ -15,9 +15,9 @@ public class Principal {
 		
 		//Scanner sc = new Scanner(System.in);
 				
-		/*System.out.println("INFORMAÇÃOES DO MEMBRO");
+		System.out.println("INFORMAÇÃOES DO MEMBRO");
 		System.out.println();
-		System.out.print("Digite o nome do membro: ");
+		/*System.out.print("Digite o nome do membro: ");
 		String nome = sc.nextLine();
 		System.out.print("Digite a idade: ");
 		int idade = sc.nextInt();
